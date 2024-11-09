@@ -1,8 +1,10 @@
 *{
-    margin: 0;
+  margin: 0;
     padding: 0;
     box-sizing: border-box;
+     
 }
+    
 
 body {
     font-family: Arial, sans-serif;
@@ -74,6 +76,14 @@ body {
 
 .links a:hover {
     text-decoration: underline;
+}
+@media screen and (max-width : 375px) {
+  
+    .login-container{
+ display: block;
+
+    }
+    
 }
  
 /* #sent{
