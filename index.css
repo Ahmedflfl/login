@@ -8,9 +8,8 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: rgb(79, 100, 216);
    
-  
+   background: linear-gradient(90deg, rgba(0,0,0,1) 16%, rgba(252,176,69,1) 100%);
     display: flex;
     justify-content: center;
     align-items: center;
