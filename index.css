@@ -45,6 +45,23 @@ body {
   border: 1px solid #ddd;
   border-radius: 5px;
 }
+/* تنسيق الحقول (Input, Select) */
+label {
+font-size: 14px;
+color: white;
+margin-top: 10px;
+display: block;
+text-align: right;
+}
+input, select {
+  width: 100%;
+  padding: 8px;
+  margin: 10px 0;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  direction: ltr; /* لضبط اتجاه الكتابة داخل الحقول من اليسار لليمين */
+}
 
 /* زر الدخول */
 .login-btn {
@@ -85,6 +102,7 @@ body {
     display: block;
   }
 }
+
 
 /* #sent{
     width:25%;
