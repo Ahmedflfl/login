@@ -21,7 +21,7 @@ loginForm.addEventListener('submit', (e) => {
 
     if (userFound) {
         // إذا كان المستخدم موجودًا
-        alert('تم تسجيل الدخول بنجاح!');
+        // alert('تم تسجيل الدخول بنجاح!');
         // قم بتوجيه المستخدم إلى الرابط المطلوب
         window.location.href = 'https://egyptlaptop.com/ar';
     } else {

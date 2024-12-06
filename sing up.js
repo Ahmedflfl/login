@@ -28,7 +28,8 @@ form.addEventListener('submit', (e) => {
     form.reset();
 
     // رسالة تأكيد
-    alert('تم إنشاء الحساب بنجاح!');
+    // alert('تم إنشاء الحساب بنجاح!');
+    window.location.href = 'https://egyptlaptop.com/ar';
 });
 
 // استرجاع وعرض البيانات من localStorage (اختياري)
